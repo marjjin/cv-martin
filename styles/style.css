@@ -1,0 +1,19 @@
+body {
+  background-color: #000000;
+  color: #f0f0f0;
+}
+
+.header {
+  background-color: red;
+  color: black;
+  box-shadow: -2px -2px 4px beige;
+  border-radius: 8px;
+  width: 100px;
+  height: 200px;
+
+  min-width: 110em;
+}
+
+#titulo {
+  text-align: center;
+}
