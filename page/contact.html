@@ -3,28 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+
+    <title>Contacto</title>
   </head>
   <body>
     <header class="header">
       <h1>Martin Andres Carmona</h1>
-      <img src="" alt="foto de cv martin andres carmona" />
+      <img src="/img/fotoperfil.png" alt="foto de cv martin andres carmona" />
     </header>
-    <main>
+    <main id="maincontacto">
       <h2>Contactate conmigo</h2>
-      <form action="">
+      <form>
+        <label for="">Nombre</label>
+        <input type="text" required />
+        <label for="">Apellido</label>
+        <input type="text" required />
         <label for="">Email</label>
-        <input type="email" />
-        <label for="">Email</label>
-        <input type="email" />
-        <label for="">Email</label>
-        <input type="email" />
-        <label for="">Email</label>
-        <input type="email" />
-        <label for="">Email</label>
-        <input type="email" />
+        <input type="email" required />
+        <label for="">Telefono</label>
+        <input type="tel" required />
+        <label for="">Mensaje</label>
+        <textarea required></textarea>
+        <button type="submit" id="submit-button">Enviar</button>
       </form>
     </main>
-    <footer></footer>
+    <footer>
+      <p>© 2023 Martin Andres Carmona. Todos los derechos reservados.</p>
+    </footer>
   </body>
 </html>
